@@ -16,7 +16,6 @@ public class Student : Person
         }
         else
         {
-            // Logic: Calculate based on the age from the base class
             int age = CalcAge(dateOfBirth);
             if (age < 7) { SchoolYear = "Reception"; }
             if (age > 18) { SchoolYear = "University"; }
